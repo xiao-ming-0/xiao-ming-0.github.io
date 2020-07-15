@@ -99,5 +99,5 @@ theme: landscape
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repository: git@github.com:xiao-ming-0/xiao-ming-0.github.io.git
+  repository: git@github.com:xiaoming7658/xiaoming7658.github.io.git
   branch: master
