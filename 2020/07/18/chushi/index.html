@@ -87,7 +87,7 @@
 <meta property="og:description" content="本地电脑部署 安装git  下载地址安装后可以在搜索中输入gitbash快速打开命令行。  检测有没有git  1git --version   如果有版本则表示已经有了，如果没有提示，则mac会弹框提示你安装git，一路按同意就行了。  本地配置SSH并绑定至GitHub  如果命令行中出现了access right，一般是出现了权限问题，就要查看SSH是否正确添加。  本地安装node.js">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2020-07-18T11:18:51.000Z">
-<meta property="article:modified_time" content="2020-07-18T11:42:51.944Z">
+<meta property="article:modified_time" content="2020-07-18T11:56:37.707Z">
 <meta property="article:author" content="John Doe">
 <meta name="twitter:card" content="summary">
 
@@ -315,10 +315,17 @@
 <p> <a href="https://nodejs.org/zh-cn/" target="_blank" rel="noopener">下载地址</a>安装好后输入：<code>node -v</code>如果有版本则已经成功了</p>
 </li>
 <li><p>本地安装Hexo</p>
- <figure class="highlight plain"><figcaption><span>install -g hexo-cli```</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">    Mac环境可能需要管理员权限，需要先输入&#96;sudo -s&#96;，再输入开机密码，再回车，再执行上面的命令。</span><br><span class="line"></span><br><span class="line">6. 把dev分支的代码clone到本地</span><br></pre></td></tr></table></figure>
-<p> git clone -b dev 仓库地址</p>
-<p> git clone -b dev <a href="mailto:git@github.com">git@github.com</a>:xiaoming7658/xiaoming7658.github.io.git</p>
- <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">也可以直接clone仓库，然后切换到dev分支</span><br><span class="line"></span><br><span class="line">7. 安装node依赖</span><br><span class="line"></span><br><span class="line">    进入仓库目录，输入：</span><br><span class="line">    &#96;&#96;&#96;npm install</span><br></pre></td></tr></table></figure></li>
+ <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install -g hexo-cli</span><br></pre></td></tr></table></figure>
+
+<p> Mac环境可能需要管理员权限，需要先输入<code>sudo -s</code>，再输入开机密码，再回车，再执行上面的命令。</p>
+</li>
+<li><p>把dev分支的代码clone到本地</p>
+ <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git clone -b dev 仓库地址</span><br><span class="line">git clone -b dev git@github.com:xiaoming7658&#x2F;xiaoming7658.github.io.git</span><br></pre></td></tr></table></figure>
+<p> 也可以直接clone仓库，然后切换到dev分支</p>
+</li>
+<li><p>安装node依赖</p>
+<p> 进入仓库目录，输入：</p>
+ <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install</span><br></pre></td></tr></table></figure></li>
 </ol>
 
       
